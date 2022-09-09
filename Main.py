@@ -16,7 +16,8 @@ class Stack:
 
   def pop(self) -> None:
     # Write your code here
-    self.head = self.head.next
+    if self.head is not None:
+      self.head = self.head.next
 
   def status(self):
     """
