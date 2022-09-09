@@ -27,6 +27,7 @@ class Stack:
     while itr is not None:
       print(itr.data, end = "=>")
       itr = itr.next
+    print("None")
 
 
 # Do not change the following code
