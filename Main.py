@@ -26,6 +26,7 @@ class Stack:
     itr = self.head
     while itr is not None:
       print(itr.data, end = "=>")
+      itr = itr.next
 
 
 # Do not change the following code
